@@ -50,7 +50,6 @@ public class Main {
             }
         }
     }
-// тестовый коммент
     private static void addTask(String name) {
         ensureCapacity();
         tasks[currentTasksCount++] = name;
